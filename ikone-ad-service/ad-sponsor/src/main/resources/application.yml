@@ -1,0 +1,27 @@
+server:
+  port: 7000
+  servlet:
+    context-path: /ad-sponser # http controller root path 请求路径的前缀  todo 路径展示一下
+spring:
+  application:
+    name: eureka-client-ad-sponsor
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: none # 通常为 none 表示不对表结构进行变更
+    properties:
+      hibernate.format_sql: true # 处理打印的 sql 语句乱码问题
+    open-in-view: false # 避免 hibernate 懒加载时, 找不到 bean 的错误
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/imooc_ad_data?autoReconnect=true
+    username: root
+    password: root
+    tomcat: # 数据库连接池数量
+      max-active: 4
+      min-idle: 2
+      initial-size: 2
+# 往 eureka server 中注册
+eureka:
+  client:
+    service-url:
+      defaultZone: http://server1:8000/eureka/ # 只是用了一个位置 todo 多台 server 的话是不是都要注册

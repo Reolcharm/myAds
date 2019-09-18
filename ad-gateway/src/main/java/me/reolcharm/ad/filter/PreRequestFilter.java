@@ -9,6 +9,7 @@ import org.springframework.stereotype.Component;
 
 /**
  * 需求: 实现自定义过滤器, 并注册到 eureka server 中
+ * @author K1
  */
 @Slf4j
 @Component
@@ -30,7 +31,7 @@ public class PreRequestFilter extends ZuulFilter {
 
     @Override
     public Object run() throws ZuulException {
-//        从 过滤器中的 `RequestContext`,获取到当前的上下文容器
+//        从 过滤器中的 `RequestContext`, 获取到当前的上下文容器
         RequestContext currentContext = RequestContext.getCurrentContext();
         currentContext.set("startTime",System.currentTimeMillis());
         return null;

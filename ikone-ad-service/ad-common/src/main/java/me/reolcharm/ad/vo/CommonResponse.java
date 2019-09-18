@@ -7,19 +7,21 @@ import lombok.NoArgsConstructor;
 import java.io.Serializable;
 
 /**
- * Created by Qinyi.
+ * 统一响应对象
+ * @author K1
  */
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class CommonResponse1<T> implements Serializable {
+public class CommonResponse<T> implements Serializable {
 
     private Integer code;
     private String message;
     private T data;
 
-    public CommonResponse1(Integer code, String message) {
+    public CommonResponse(Integer code, String message) {
         this.code = code;
         this.message = message;
     }
+
 }

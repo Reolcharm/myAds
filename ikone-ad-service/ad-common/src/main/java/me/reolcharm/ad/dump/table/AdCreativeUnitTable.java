@@ -1,4 +1,4 @@
-package com.imooc.ad.dump.table;
+package me.reolcharm.ad.dump.table;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

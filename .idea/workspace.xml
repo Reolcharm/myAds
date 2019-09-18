@@ -1,7 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2e5a36d0-09c1-4e73-91e8-06452202f155" name="Default Changelist" comment="" />
+    <list default="true" id="1ffec938-31b2-48ca-99c8-2b74a3ff52a3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ikone-ad-service/ad-sponsor/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ikone-ad-service/ad-sponsor/src/main/java/me/reolcharm/ad/SponsorApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ikone-ad-service/ad-sponsor/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad-gateway/src/main/java/me/reolcharm/ad/filter/AccessLogFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/ad-gateway/src/main/java/me/reolcharm/ad/filter/AccessLogFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad-gateway/src/main/java/me/reolcharm/ad/filter/PreRequestFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/ad-gateway/src/main/java/me/reolcharm/ad/filter/PreRequestFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ikone-ad-service/ad-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ikone-ad-service/ad-common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ikone-ad-service/ad-common/src/main/java/me/reolcharm/ad/advice/CommonResponseDataAdvice.java" beforeDir="false" afterPath="$PROJECT_DIR$/ikone-ad-service/ad-common/src/main/java/me/reolcharm/ad/advice/CommonResponseDataAdvice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ikone-ad-service/ad-common/src/main/java/me/reolcharm/ad/advice/GlobalExceptionAdvice.java" beforeDir="false" afterPath="$PROJECT_DIR$/ikone-ad-service/ad-common/src/main/java/me/reolcharm/ad/advice/GlobalExceptionAdvice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ikone-ad-service/ad-common/src/main/java/me/reolcharm/ad/annotation/IgnoreResponseAdvice.java" beforeDir="false" afterPath="$PROJECT_DIR$/ikone-ad-service/ad-common/src/main/java/me/reolcharm/ad/annotation/IgnoreResponseAdvice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ikone-ad-service/ad-common/src/main/java/me/reolcharm/ad/conf/WebConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/ikone-ad-service/ad-common/src/main/java/me/reolcharm/ad/conf/WebConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ikone-ad-service/ad-common/src/main/java/me/reolcharm/ad/dump/DConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/ikone-ad-service/ad-common/src/main/java/me/reolcharm/ad/dump/DConstant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ikone-ad-service/ad-common/src/main/java/me/reolcharm/ad/dump/table/AdCreativeTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/ikone-ad-service/ad-common/src/main/java/me/reolcharm/ad/dump/table/AdCreativeTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ikone-ad-service/ad-common/src/main/java/me/reolcharm/ad/dump/table/AdCreativeUnitTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/ikone-ad-service/ad-common/src/main/java/me/reolcharm/ad/dump/table/AdCreativeUnitTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ikone-ad-service/ad-common/src/main/java/me/reolcharm/ad/dump/table/AdPlanTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/ikone-ad-service/ad-common/src/main/java/me/reolcharm/ad/dump/table/AdPlanTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ikone-ad-service/ad-common/src/main/java/me/reolcharm/ad/dump/table/AdUnitDistrictTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/ikone-ad-service/ad-common/src/main/java/me/reolcharm/ad/dump/table/AdUnitDistrictTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ikone-ad-service/ad-common/src/main/java/me/reolcharm/ad/dump/table/AdUnitItTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/ikone-ad-service/ad-common/src/main/java/me/reolcharm/ad/dump/table/AdUnitItTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ikone-ad-service/ad-common/src/main/java/me/reolcharm/ad/dump/table/AdUnitKeywordTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/ikone-ad-service/ad-common/src/main/java/me/reolcharm/ad/dump/table/AdUnitKeywordTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ikone-ad-service/ad-common/src/main/java/me/reolcharm/ad/dump/table/AdUnitTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/ikone-ad-service/ad-common/src/main/java/me/reolcharm/ad/dump/table/AdUnitTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ikone-ad-service/ad-common/src/main/java/me/reolcharm/ad/exception/AdException.java" beforeDir="false" afterPath="$PROJECT_DIR$/ikone-ad-service/ad-common/src/main/java/me/reolcharm/ad/exception/AdException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ikone-ad-service/ad-common/src/main/java/me/reolcharm/ad/vo/CommonResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/ikone-ad-service/ad-common/src/main/java/me/reolcharm/ad/vo/CommonResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ikone-ad-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ikone-ad-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,33 +44,39 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="G:/EnProgram/maven" />
+        <option name="userSettingsFile" value="G:\EnProgram\maven\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="importAutomatically" value="true" />
+        <option name="jdkForImporter" value="#JAVA_HOME" />
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectId" id="1Qp1sfSqjWu0zPjnlITDioPo4lh" />
+  <component name="ProjectId" id="1R0RNRNCoev4swo5IwBA3XYnBPm" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
-    <property name="RequestMappingsPanelOrder0" value="0" />
-    <property name="RequestMappingsPanelOrder1" value="1" />
-    <property name="RequestMappingsPanelWidth0" value="75" />
-    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ad-gateway/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ikone-ad-service/ad-sponsor/src/main/resources" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="ad" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="G:\Project\ikone-ad\ad-gateway\src\main\resources" />
+      <recent name="G:\Project\ikone-ad\ikone-ad-service\ad-sponsor\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -57,55 +92,47 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.ZuulGatewayApplication">
-    <configuration name="EurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="EurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="ad-eureka" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="me.reolcharm.ad.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="me.reolcharm.ad.EurekaApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ZuulGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="ZuulGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="ad-gateway" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="me.reolcharm.ad.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="me.reolcharm.ad.ZuulGatewayApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Spring Boot.ZuulGatewayApplication" />
-        <item itemvalue="Spring Boot.EurekaApplication" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="2e5a36d0-09c1-4e73-91e8-06452202f155" name="Default Changelist" comment="" />
-      <created>1568452931449</created>
+      <changelist id="1ffec938-31b2-48ca-99c8-2b74a3ff52a3" name="Default Changelist" comment="" />
+      <created>1568801986880</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1568452931449</updated>
-      <workItem from="1568452934565" duration="2744000" />
-      <workItem from="1568509305973" duration="7968000" />
+      <updated>1568801986880</updated>
+      <workItem from="1568801988380" duration="3726000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

@@ -25,7 +25,9 @@ public class AccessLogFilter extends ZuulFilter {
         return FilterConstants.POST_TYPE;
     }
 
-    /** 最后再执行*/
+    /**
+     * 最后再执行
+     */
     @Override
     public int filterOrder() {
         return FilterConstants.SEND_RESPONSE_FILTER_ORDER - 1;

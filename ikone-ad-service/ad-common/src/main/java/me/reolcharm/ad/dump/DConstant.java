@@ -1,4 +1,4 @@
-package com.imooc.ad.dump;
+package me.reolcharm.ad.dump;
 
 /**
  * Created by Qinyi.

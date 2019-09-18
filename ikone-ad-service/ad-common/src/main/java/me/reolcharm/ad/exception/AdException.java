@@ -7,5 +7,11 @@
  */
 package me.reolcharm.ad.exception;
 
-public class AdException {
+/**
+ * 自定义了一个异常类
+ */
+public class AdException extends Exception {
+    public AdException(String message) {
+        super(message);
+    }
 }
