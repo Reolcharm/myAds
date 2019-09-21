@@ -2,7 +2,6 @@ package me.reolcharm.ad.constant;
 
 import lombok.Getter;
 
-
 /**
  * @author K1
  */
@@ -26,7 +25,7 @@ public enum CreativeMetrialType {
     /**
      * the type of AUDIO
      */
-    MP3(6,"mp3");
+    MP3(6, "mp3");
 
     private int type;
     private String desc;
