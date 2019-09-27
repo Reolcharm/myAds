@@ -44,4 +44,18 @@ public class CommonUtils {
             throw new AdException(e.getMessage());
         }
     }
+
+    /**
+     * Validate o whether is number or not.
+     * @param o Long, Integer or others.
+     * @return false if it is null.
+     */
+    public static boolean match(Object o){
+        if (o != null){
+            String numStr = String.valueOf(o);
+            String reg = "^[0-9]\\d*$";
+            return numStr.matches(reg);
+        }
+        return false;
+    }
 }
