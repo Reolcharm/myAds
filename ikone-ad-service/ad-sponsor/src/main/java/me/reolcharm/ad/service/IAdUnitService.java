@@ -15,7 +15,7 @@ public interface IAdUnitService {
      * @return
      * @throws AdException
      */
-    AdUnitResponse createService(AdUnitRequest req) throws AdException;
+    AdUnitResponse createUnit(AdUnitRequest req) throws AdException;
 
     /**
      * @param request

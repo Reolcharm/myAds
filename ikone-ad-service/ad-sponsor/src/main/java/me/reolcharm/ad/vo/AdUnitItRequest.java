@@ -19,7 +19,7 @@ public class AdUnitItRequest {
     /**
      * Allows add in batches;
      */
-    private List<UnitKeyword> unitKeywords;
+    private List<UnitIt> unitIts;
 
     /**
      * Allows add in batches;
@@ -27,7 +27,7 @@ public class AdUnitItRequest {
     @Data
     @AllArgsConstructor
     @NoArgsConstructor
-    public static class UnitKeyword{
+    public static class UnitIt {
         private Long unitId;
         private String itTag;
     }
